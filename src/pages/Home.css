@@ -1,0 +1,38 @@
+.home {
+  text-align: center;
+  padding: 20px;
+}
+
+.customize-button {
+  padding: 15px 30px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.customize-button:hover {
+  background-color: #ffaa00;
+}
+
+@media (max-width: 768px) {
+  .preview {
+    width: 150px;
+    height: 150px;
+  }
+
+  .shape {
+    width: 80px;
+    height: 80px;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  .customize-button {
+    width: 100%;
+  }
+}
